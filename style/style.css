@@ -101,10 +101,8 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .half {
-  padding-top: 80px;
+  padding: 20px;
   width: 50vw;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .squiggle {
@@ -140,6 +138,7 @@ z-index: -1;
   .mobileimage {
     display:flex;
   }
+
 .mobileimage1 {
   width:50%;
   height: 50%;
