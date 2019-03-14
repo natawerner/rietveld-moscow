@@ -80,13 +80,9 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .mainText {
-<<<<<<< HEAD
   height: 100vh;
   cursor: default;
   margin-top: 30vh;
-=======
-margin-top: 30vh;
->>>>>>> 543905d473423d87502ce51069bb0e3033e0f52e
   font-family: cooper;
   font-size: 30px;
   display: flex;
