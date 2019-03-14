@@ -23,12 +23,16 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .openCall {
+  position: fixed;
+  top: 20px;
+  right: 20px;
   font-family: pragmatica, sans-serif;
   font-weight: 400;
   text-align: right;
   font-size: 60px;
   color: #0669ff;
 }
+
 #blink {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 2s;
@@ -87,6 +91,13 @@ font-family: poynter-oldstyle-display-con;
   font-size: 30px;
   display: flex;
   line-height: 120%;
+}
+
+#right {
+  color: #0669ff;
+}
+#right img {
+  height: 100%;
 }
 
 .half {
