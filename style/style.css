@@ -13,7 +13,7 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .header {
-  padding: 10px;
+  padding: 20px;
   height: 100vh;
 }
 
@@ -21,10 +21,13 @@ font-family: poynter-oldstyle-display-con;
   font-family: pragmatica, sans-serif;
   font-weight: 400;
   text-align: right;
+  font-size: 60px;
+  color: #0669ff;
 }
 
 #intro {
   font-family: poynter-oldstyle-display-con;
+  font-size: 120px;
 }
 
 #mmoma {
@@ -32,19 +35,26 @@ font-family: poynter-oldstyle-display-con;
   font-weight: 400;
 }
 
+#squiggle {
+
+}
+
 .mainText {
-  padding: 10px;
   font-family: cooper;
-  font-size: 24pt;
+  font-size: 30px;
   display: flex;
+  line-height: 120%;
 }
 
-.left {
-  flex-grow: 1;
-  padding-right: 10px;
+.half {
+  width: 50vw;
+  padding: 20px;
 }
 
-.right {
-  flex-grow: 1;
-  padding-left: 10px;
+.image img {
+  max-width: 100%;
+}
+
+.squiggle {
+  color: #0669ff;
 }
