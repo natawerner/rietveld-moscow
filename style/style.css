@@ -16,17 +16,9 @@ font-family: poynter-oldstyle-display-con;
   src: url('../fonts/Squiggle1.7-Regular.otf');
 }
 
-
 .header {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
+  padding-left:20px;
   height: 100vh;
-  cursor: default;
-}
-
-#arrow img {
-  max-height: 100%;
 }
 
 .openCall {
@@ -38,7 +30,6 @@ font-family: poynter-oldstyle-display-con;
   font-size: 60px;
   color: #0669ff;
 }
-
 #blink {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 2s;
@@ -55,16 +46,19 @@ font-family: poynter-oldstyle-display-con;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 @-moz-keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
+
 @-webkit-keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
+
 @keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
@@ -87,9 +81,8 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .mainText {
-  padding-top: 60px;
-  height: 100vh;
-  cursor: default;
+margin-top: 30vh;
+cursor: default;
   font-family: cooper;
   font-size: 30px;
   display: flex;
@@ -102,15 +95,100 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .image img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .squiggle {
-  cursor: pointer;
+  color: #0669ff;
+  font-family: squiggle;
+}
+.mobile {
+display:none;
+}
+.mobileimage{
+display:none;
+}
+
+.arrow{
+width:8%;
+height:30%;
+position:absolute;
+top:90vh;
+left:75vh;
+z-index: 2;
+}
+@media (max-width:700px){
+
+  .arrow{
+  display: none;
+  }
+
+  .mobileimage{
+display:flex;
+  }
+.mobileimage1{
+width:50%;
+height: 50%;
+margin-left: 25vw;
+}
+
+
+.mobile {
+display:flex;
+font-family: cooper;
+font-size: 14pt;
+line-height: 120%;
+padding: 20px;
+  width: 90vw;
+color:#0669ff;
+margin-left: 20px;
+}
+.header {
+  padding: 20px;
+  height: 42vh;
+}
+
+.openCall {
+  font-family: pragmatica, sans-serif;
+  font-weight: 400;
+  text-align: right;
+  font-size: 20pt;
+  color: #0669ff;
+}
+
+#intro {
+  font-family: poynter-oldstyle-display-con;
+  font-size: 30pt;
+}
+
+#mmoma {
+  font-family: pragmatica, sans-serif;
+  font-weight: 400;
+}
+
+#squiggle {
+  font-family: squiggle;
+  font-size: 58pt;
+}
+
+.mainText {
+  font-family: cooper;
+  font-size: 14pt;
+  display: flex;
+  line-height: 120%;
+margin-top:1.9em;
+}
+
+.half {
+
+  width: 100vw;
+  padding: 20px;
+}
+#right {display:none;}
+
+.squiggle {
   color: #0669ff;
   font-family: squiggle;
 }
 
-#right {
-  color: #0669ff;
 }
