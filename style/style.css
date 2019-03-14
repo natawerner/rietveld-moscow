@@ -10,3 +10,8 @@ font-weight: 700;
 пойнтер
 font-family: poynter-oldstyle-display-con;
 */
+
+.header {
+  padding: 10px;
+  height: 100vh;
+}
