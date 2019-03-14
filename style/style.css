@@ -166,7 +166,7 @@ margin-left: 20px;
   font-family: pragmatica, sans-serif;
   font-weight: 400;
   text-align: right;
-  font-size: 20pt;
+  font-size: 2em;
   color: #0669ff;
 }
 
@@ -182,7 +182,7 @@ margin-left: 20px;
 
 #squiggle {
   font-family: squiggle;
-  font-size: 58pt;
+  font-size: 4em;
 }
 
 .mainText {
