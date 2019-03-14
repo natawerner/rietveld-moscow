@@ -16,9 +16,17 @@ font-family: poynter-oldstyle-display-con;
   src: url('../fonts/Squiggle1.7-Regular.otf');
 }
 
+
 .header {
-  padding-left:20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   height: 100vh;
+  cursor: default;
+}
+
+#arrow img {
+  max-height: 100%;
 }
 
 .openCall {
@@ -30,6 +38,7 @@ font-family: poynter-oldstyle-display-con;
   font-size: 60px;
   color: #0669ff;
 }
+
 #blink {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 2s;
@@ -46,19 +55,16 @@ font-family: poynter-oldstyle-display-con;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-
 @-moz-keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
-
 @-webkit-keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
-
 @keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
@@ -81,8 +87,9 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .mainText {
-margin-top: 30vh;
-cursor: default;
+  padding-top: 60px;
+  height: 100vh;
+  cursor: default;
   font-family: cooper;
   font-size: 30px;
   display: flex;
@@ -95,13 +102,20 @@ cursor: default;
 }
 
 .image img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .squiggle {
+  cursor: pointer;
   color: #0669ff;
   font-family: squiggle;
 }
+
+#right {
+  color: #0669ff;
+}
+
+
 .mobile {
 display:none;
 }
@@ -142,53 +156,4 @@ padding: 20px;
   width: 90vw;
 color:#0669ff;
 margin-left: 20px;
-}
-.header {
-  padding: 20px;
-  height: 42vh;
-}
-
-.openCall {
-  font-family: pragmatica, sans-serif;
-  font-weight: 400;
-  text-align: right;
-  font-size: 20pt;
-  color: #0669ff;
-}
-
-#intro {
-  font-family: poynter-oldstyle-display-con;
-  font-size: 30pt;
-}
-
-#mmoma {
-  font-family: pragmatica, sans-serif;
-  font-weight: 400;
-}
-
-#squiggle {
-  font-family: squiggle;
-  font-size: 58pt;
-}
-
-.mainText {
-  font-family: cooper;
-  font-size: 14pt;
-  display: flex;
-  line-height: 120%;
-margin-top:1.9em;
-}
-
-.half {
-
-  width: 100vw;
-  padding: 20px;
-}
-#right {display:none;}
-
-.squiggle {
-  color: #0669ff;
-  font-family: squiggle;
-}
-
 }
