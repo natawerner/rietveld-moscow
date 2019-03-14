@@ -23,11 +23,9 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .openCall {
-  position: fixed;
-  top: 20px;
-  right: 20px;
   font-family: pragmatica, sans-serif;
   font-weight: 400;
+  text-align: right;
   font-size: 60px;
   color: #0669ff;
 }
@@ -82,9 +80,13 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .mainText {
+<<<<<<< HEAD
   height: 100vh;
   cursor: default;
   margin-top: 30vh;
+=======
+margin-top: 30vh;
+>>>>>>> 543905d473423d87502ce51069bb0e3033e0f52e
   font-family: cooper;
   font-size: 30px;
   display: flex;
@@ -113,12 +115,12 @@ display:none;
 }
 
 .arrow{
-width:8%;
-height:30%;
+width:6%;
+height:24%;
 position:absolute;
-top:90vh;
+top:70vh;
 left:75vh;
-z-index: 2;
+z-index: -1;
 }
 
 
