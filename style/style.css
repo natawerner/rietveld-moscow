@@ -30,9 +30,11 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .openCall {
+  position: fixed;
+  top: 20px;
+  right: 20px;
   font-family: pragmatica, sans-serif;
   font-weight: 400;
-  text-align: right;
   font-size: 60px;
   color: #0669ff;
 }
@@ -85,6 +87,7 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .mainText {
+  padding-top: 60px;
   height: 100vh;
   cursor: default;
   font-family: cooper;
