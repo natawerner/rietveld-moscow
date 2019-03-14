@@ -1,9 +1,12 @@
-@font-face {
-  font-family: 'Pragmatica';
-  src: url('https://cdn.glitch.com/2e0cf87a-999b-4b20-bf6a-2358bd8f52f0%2Fpragmatica.ttf?1550441282993');
-}
+/*
+прагматика бук
+font-family: pragmatica, sans-serif;
+font-weight: 400;
 
-body {
-  font-family: poynter-oldstyle-display-con;
-  
-}
+прагматика болд
+font-family: pragmatica, sans-serif;
+font-weight: 700;
+
+пойнтер
+font-family: poynter-oldstyle-display-con;
+*/
