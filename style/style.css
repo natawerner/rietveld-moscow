@@ -11,6 +11,10 @@ font-family: poynter-oldstyle-display-con;
   font-family: 'cooper';
   src: url('../fonts/Cooper-Medium.ttf');
 }
+@font-face {
+  font-family: 'squiggle';
+  src: url('../fonts/Squiggle1.7-Regular.otf');
+}
 
 .header {
   padding: 20px;
@@ -70,7 +74,8 @@ font-family: poynter-oldstyle-display-con;
 }
 
 #squiggle {
-
+  font-family: squiggle;
+  font-size: 250px;
 }
 
 .mainText {
@@ -91,4 +96,5 @@ font-family: poynter-oldstyle-display-con;
 
 .squiggle {
   color: #0669ff;
+  font-family: squiggle;
 }
