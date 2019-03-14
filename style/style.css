@@ -3,15 +3,48 @@
 font-family: pragmatica, sans-serif;
 font-weight: 400;
 
-прагматика болд
-font-family: pragmatica, sans-serif;
-font-weight: 700;
-
 пойнтер
 font-family: poynter-oldstyle-display-con;
 */
 
+@font-face {
+  font-family: 'cooper';
+  src: url('../fonts/Cooper-Medium.ttf');
+}
+
 .header {
   padding: 10px;
   height: 100vh;
+}
+
+#openCall {
+  font-family: pragmatica, sans-serif;
+  font-weight: 400;
+  text-align: right;
+}
+
+#intro {
+  font-family: poynter-oldstyle-display-con;
+}
+
+#mmoma {
+  font-family: pragmatica, sans-serif;
+  font-weight: 400;
+}
+
+.mainText {
+  padding: 10px;
+  font-family: cooper;
+  font-size: 24pt;
+  display: flex;
+}
+
+.left {
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+.right {
+  flex-grow: 1;
+  padding-left: 10px;
 }
