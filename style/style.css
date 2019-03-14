@@ -16,9 +16,11 @@ font-family: poynter-oldstyle-display-con;
   src: url('../fonts/Squiggle1.7-Regular.otf');
 }
 
+
 .header {
   padding: 20px;
   height: 100vh;
+  cursor: default;
 }
 
 .openCall {
@@ -79,6 +81,8 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .mainText {
+  height: 100vh;
+  cursor: default;
   font-family: cooper;
   font-size: 30px;
   display: flex;
@@ -95,6 +99,11 @@ font-family: poynter-oldstyle-display-con;
 }
 
 .squiggle {
+  cursor: pointer;
   color: #0669ff;
   font-family: squiggle;
+}
+
+#right {
+  color: #0669ff;
 }
