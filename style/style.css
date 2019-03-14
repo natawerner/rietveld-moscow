@@ -120,11 +120,11 @@ display:none;
 }
 
 .arrow{
-width:6%;
 height:24%;
+width:auto;
 position:absolute;
 top:70vh;
-left:75vh;
+left:47.5%;
 z-index: -1;
 }
 
@@ -135,14 +135,11 @@ z-index: -1;
     display: none;
   }
 
-  .mobileimage {
-    display:flex;
-  }
-
-.mobileimage1 {
+.mobileimage {
+  display:flex;
   width:50%;
   height: 50%;
-  margin-left: 25vw;
+  margin: auto;
   }
 
 
@@ -152,19 +149,17 @@ font-family: cooper;
 font-size: 14pt;
 line-height: 120%;
 padding: 20px;
-  width: 90vw;
 color:#0669ff;
-margin-left: 20px;
-  margin-top:20vh;
 }
 .header {
   padding: 20px;
-  height: 42vh;
+  height: auto;
+  margin-bottom: 4em;
 }
 
 .openCall {
-  font-family: pragmatica, sans-serif;
-  font-weight: 400;
+  top: 0.5em;
+  right: 0.5em;
   text-align: right;
   font-size: 2em;
   color: #0669ff;
@@ -172,7 +167,7 @@ margin-left: 20px;
 
 #intro {
   font-family: poynter-oldstyle-display-con;
-  font-size: 30pt;
+  font-size: 2em;
 }
 
 #mmoma {
@@ -182,7 +177,7 @@ margin-left: 20px;
 
 #squiggle {
   font-family: squiggle;
-  font-size: 4em;
+  font-size: 2em;
 }
 
 .mainText {
@@ -190,19 +185,22 @@ margin-left: 20px;
   font-size: 14pt;
   display: flex;
   line-height: 120%;
-margin-top:1.9em;
+  margin-top: 4em;
+  height: auto;
 }
 
 .half {
-
   width: 100vw;
-  padding: 20px;
 }
+
 #right {display:none;}
 
 .squiggle {
   color: #0669ff;
   font-family: squiggle;
 }
+ .mobileHeader {
+   height: 100vh;
+ }
 
 }
