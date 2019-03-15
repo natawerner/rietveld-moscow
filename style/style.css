@@ -144,11 +144,22 @@ bottom: 20px;
   text-align: center;
   z-index: -1;
 }
+#desktop {
+  display: block;
+}
+#mobile {
+  display: none;
+}
 
 
 
 @media screen and (max-width:700px){
-
+#desktop {
+  display: none;
+}
+#mobile {
+  display: block;
+}
   .arrow {
     display: none;
   }
@@ -162,7 +173,7 @@ bottom: 20px;
 
 
 .mobile {
-display:flex;
+display:block;
 font-family: cooper;
 font-size: 14pt;
 line-height: 120%;

@@ -9,6 +9,245 @@ annotations = ["images/ARENDTAA-43.png",
 "<span class='squiggle'>8</span> Claudia Doms is a graphic designer and educator from Germany. She is a graduate of the Rietveld graphic design program and currently teaches at the British Higher School of Art and Design in Moscow.<br><br>David Bennewith is a graphic designer and typedesign researcher originally from New Zealand. He is the head of the graphic design department at the Rietveld Acadmie.  <br> <br>The workshop organisation is assisted by Bram van den Berg. Website by Vasily Dyakonov and Natalia Kukina."];
 
 
+var scrollY = 0;
+var distance = 40;
+var speed = 24;
+
+function autoScrollTo(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('oneMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+
+function resetScroller(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('oneMobile').offsetTop;
+  var animator = setTimeout('resetScroller(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+
+function autoScrollTo2(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('twoMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo2(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+
+function resetScroller2(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('twoMobile').offsetTop;
+  var animator = setTimeout('resetScroller2(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+function autoScrollTo3(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('threeMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo3(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+
+function resetScroller3(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('threeMobile').offsetTop;
+  var animator = setTimeout('resetScroller3(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+
+function autoScrollTo4(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('fourMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo4(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+
+function resetScroller4(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('fourMobile').offsetTop;
+  var animator = setTimeout('resetScroller4(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+
+function autoScrollTo5(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('fiveMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo5(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+function resetScroller5(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('fiveMobile').offsetTop;
+  var animator = setTimeout('resetScroller5(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+
+function autoScrollTo6(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('sixMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo6(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+function resetScroller6(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('sixMobile').offsetTop;
+  var animator = setTimeout('resetScroller6(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+
+function autoScrollTo7(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('sevenMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo7(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+function resetScroller7(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('sevenMobile').offsetTop;
+  var animator = setTimeout('resetScroller7(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+
+function autoScrollTo8(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById('eightMobileTo').offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo8(\' ' +el+'\')', speed);
+	if (yPos > bodyHeight) {
+		clearTimeout(animator);
+} else {
+	if (currentY < targetY-distance) {
+		  scrollY = currentY+distance;
+		  window.scroll(0, scrollY);
+	} else {
+		  clearTimeout(animator);
+    }
+  }
+}
+function resetScroller8(el) {
+  var currentY = window.pageYOffset;
+	var targetY = document.getElementById('eightMobile').offsetTop;
+  var animator = setTimeout('resetScroller8(\' ' +el+'\')', speed);
+  if (currentY > targetY) {
+    scrollY = currentY-distance;
+    window.scroll(0, scrollY);
+  } else {
+    clearTimeout(animator);
+  }
+}
+
 /*function image() {
   var x = document.getElementById("right");
   x.removeChild(rightContent);
