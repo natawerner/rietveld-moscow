@@ -101,6 +101,7 @@ a {
 
 #right {
   color: #0669ff;
+  line-height: 120.99%;
 }
 #right img {
   height: 100%;
@@ -115,6 +116,7 @@ a {
   cursor: pointer;
   color: #0669ff;
   font-family: squiggle;
+  font-size: 30px;
 }
 
 .mobile {
