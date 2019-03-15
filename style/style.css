@@ -13,7 +13,7 @@ font-family: poynter-oldstyle-display-con;
 }
 @font-face {
   font-family: 'squiggle';
-  src: url('../fonts/Squiggle1_7.otf');
+  src: url('../fonts/Squiggle1.7-Regular.otf');
 }
 
 a {
@@ -96,7 +96,7 @@ a {
   font-family: cooper;
   font-size: 30px;
   display: flex;
-  line-height: 120%;
+  line-height: 40px;
 }
 
 #right {
