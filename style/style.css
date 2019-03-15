@@ -13,19 +13,24 @@ font-family: poynter-oldstyle-display-con;
 }
 @font-face {
   font-family: 'squiggle';
-  src: url('../fonts/Squiggle1.7-Regular.otf');
+  src: url('../fonts/Squiggle1.7-Regular.ttf');
+}
+
+a {
+  color: #0669ff;
 }
 
 .header {
-  padding-left:20px;
+  padding:20px;
   height: 100vh;
   cursor: default;
 }
+#squiggleImage {
+  height: 120px;
+  width: auto;
+}
 
 .openCall {
-  position: absolute;
-  top: 20px;
-  right: 20px;
   font-family: pragmatica, sans-serif;
   font-weight: 400;
   text-align: right;
@@ -69,6 +74,7 @@ font-family: poynter-oldstyle-display-con;
 }
 
 #intro {
+  padding-top: 20px;
   font-family: poynter-oldstyle-display-con;
   font-size: 120px;
 }
@@ -170,14 +176,13 @@ color:#0669ff;
   font-size: 2em;
 }
 
+#squiggleImage {
+  height: 1em;
+}
+
 #mmoma {
   font-family: pragmatica, sans-serif;
   font-weight: 400;
-}
-
-#squiggle {
-  font-family: squiggle;
-  font-size: 2em;
 }
 
 .mainText {
