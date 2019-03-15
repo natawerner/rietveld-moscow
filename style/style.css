@@ -98,6 +98,9 @@ a {
   display: flex;
   line-height: 40px;
 }
+#left a {
+  text-decoration: none;
+}
 
 #right {
   color: #0669ff;
