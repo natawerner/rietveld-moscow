@@ -157,9 +157,11 @@ bottom: 20px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
+.logo {
+  width: 16.67vw;
+}
 .logos img {
   padding-right: 40px;
-  width: 20vw;
   height: 100%;
 }
 
